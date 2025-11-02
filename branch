@@ -1,9 +1,0 @@
-# Clone the repository if you haven’t already
-git clone https://github.com/Maheshtanni/Stakeholder-sentiment.git
-cd Stakeholder-sentiment
-
-# Create a new branch
-git checkout -b feature-sentiment-analysis
-
-# Push the new branch to GitHub
-git push -u origin feature-sentiment-analysis
