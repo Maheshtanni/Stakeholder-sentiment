@@ -1,0 +1,38 @@
+*)*
+
+## 🔹 Project Explanation
+
+This project demonstrates how qualitative stakeholder feedback can be transformed into **actionable decision intelligence** using sentiment analysis and stakeholder mapping.
+
+Organizations often collect feedback, tickets, or comments, but struggle to answer:
+
+- *Who is dissatisfied?*
+- *Why are they dissatisfied?*
+- *Which stakeholders pose the highest delivery or adoption risk?*
+
+This project bridges that gap by combining:
+
+- **NLP-based sentiment analysis**
+- **Department-level aggregation**
+- **Time-based trend analysis**
+- **Stakeholder influence vs interest mapping**
+
+The result is a **structured framework for stakeholder risk management**, not just text analytics.
+
+---
+
+## 🔹 Dataset & Methodology (Brief)
+
+- **Input:** Stakeholder feedback comments (synthetic, privacy-safe)
+- **Fields:**
+    
+    Department, Date, Comment, Theme
+    
+- **Technique:**
+    - VADER sentiment scoring (Positive / Neutral / Negative)
+    - Percent normalization for fair comparison
+    - Time-series aggregation
+    - Qualitative theme extraction
+- **Tools:**
+    
+    Python, NLTK, Pandas, Matplotlib, WordCloud
